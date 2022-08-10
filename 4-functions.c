@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_R - printRot13
  * @a: num to analyze
@@ -35,6 +36,7 @@ int print_R(va_list a, char *s, int *index)
 	}
 	return (c);
 }
+
 /**
  * print_r - print inverse string
  * @a: num to analyze
@@ -66,6 +68,7 @@ int print_r(va_list a, char *s, int *index)
 	free(p);
 	return (i);
 }
+
 /**
  * print_p - print adress using binary code
  * @a: num to analyze
