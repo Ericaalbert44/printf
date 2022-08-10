@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_c - print characters
  * @a: element of va_list type
@@ -14,6 +15,7 @@ int print_c(va_list a, char *s, int *index)
 	buffer(s, x, index);
 	return (1);
 }
+
 /**
  * print_s - print strings
  * @a: element of va_list type
@@ -38,6 +40,7 @@ int print_s(va_list a, char *s, int *index)
 	}
 	return (y);
 }
+
 /**
  * print_por - print character %
  * @a: element of va_list type
@@ -51,6 +54,7 @@ int print_por(va_list a, char *s, int *index)
 	buffer(s, '%', index);
 	return (1);
 }
+
 /**
  * print_id - print numbers in base 10 (integers)
  * @a: element of va_list type
@@ -90,6 +94,7 @@ int print_id(va_list a, char *s, int *index)
 	}
 	return (y);
 }
+
 /**
  * print_bin - print numbers in base 2 (binary)
  * @a: element of va_list type
