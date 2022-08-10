@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * switch_h - select to print the hexa char
  * @sum: num to analyze
@@ -33,6 +34,7 @@ int switch_h(int sum, int *h, int y)
 		}
 	return (h[y]);
 }
+
 /**
  * impresion_x - print hexadecimal lowercase
  * @a: the array to be analized
@@ -78,6 +80,7 @@ int impresion_x(int *a, int b, char *s, int *index)
 	}
 		return (y);
 }
+
 /**
  * print_x - print the hexadecimal number in base 16
  * @a: element of va_list type
